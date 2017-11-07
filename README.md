@@ -22,7 +22,12 @@ A partir do envio deste email começa a contar seu prazo de resolução.
 
 Documentação:
 API de exemplo https://jsonplaceholder.typicode.com/
+
 Requisições HTTP https://www.npmjs.com/package/request
+
 Capturar dados de html https://www.npmjs.com/package/cheerio
+
 Modelo de dados para MongoDB https://www.npmjs.com/package/mongoose
+
 Framework web https://www.npmjs.com/package/express‌
+
