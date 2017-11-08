@@ -1,0 +1,40 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "DEBUG=express:* nodemon",
+    "start": "DEBUG=express:* node app.js",
+    "lint": "eslint '**/*.js' ",
+    "lint:fix": "eslint '**/*.js' --fix"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higordiego/desafio-entrevista-emprego.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/higordiego/desafio-entrevista-emprego/issues"
+  },
+  "homepage": "https://github.com/higordiego/desafio-entrevista-emprego#readme",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "bluebird": "^3.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "mongoose": "^4.13.0",
+    "morgan": "^1.9.0"
+  }
+}
