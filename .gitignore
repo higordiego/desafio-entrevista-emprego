@@ -1,5 +1,5 @@
 node_modules/
-data/
+data/*
 *.log
 public
 .DS_Store
