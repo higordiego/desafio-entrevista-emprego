@@ -5,7 +5,8 @@ const options = {
     method: 'GET',
     url: url.urlOne
 }
+const searchJson = () => axios(options)
 
 module.exports = {
-    searchh: () => axios(options)
+    searchJson
 }

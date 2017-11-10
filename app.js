@@ -23,6 +23,9 @@ const port = process.env.PORT || 8000
 
 const server = http.createServer(app)
 
+// import routes
+require('./routes')(app)
+
 app.use((req, res) => res.status(404).json([{
     title: '404', message: 'Route not found'
 }]))
