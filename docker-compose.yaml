@@ -21,3 +21,5 @@ services:
         ports:
             - 8000:8000
         command: bash -c "cd /backend && node_modules/.bin/nodemon"
+
+

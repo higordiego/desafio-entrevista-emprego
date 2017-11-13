@@ -56,5 +56,9 @@ Framework web https://www.npmjs.com/package/express‌
   * 4.4 - Atualizar uma postagem via url: http://127.0.0.1:8000/posts/<id-da-postagem> via método PUT;
 
 
+# Iniciar Projeto
+
+  `docker-compose up`
+
 
 
