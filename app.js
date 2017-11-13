@@ -23,7 +23,6 @@ const port = process.env.PORT || 8000
 
 const server = http.createServer(app)
 
-// import routes
 require('./routes')(app)
 
 app.use((req, res) => res.status(404).json([{
@@ -31,4 +30,5 @@ app.use((req, res) => res.status(404).json([{
 }]))
 
 server.listen(port)
+
 module.exports = app

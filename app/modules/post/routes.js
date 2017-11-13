@@ -6,9 +6,6 @@ module.exports = app => {
         .get(Controller.listAll)
         .post(Validate.create, Controller.create)
 
-    app.route(`/post/init`)
-        .get(Validate.initDatabase, Controller.initDatabase)
-
     app.route(`/post/:_id`)
         .get(Validate.validateId, Controller.listOne)
         .put(Validate.update, Controller.update)

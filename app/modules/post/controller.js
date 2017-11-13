@@ -1,6 +1,4 @@
 module.exports = app => {
-    const Service = require('./service')
-    const Business = require('./business')
     const Post = require('./model')
     const Persistence = require('../../helpers/persistence')
     return {
@@ -25,16 +23,7 @@ module.exports = app => {
         },
         delete: (req, res) => {
             const query = req.params
-            const mod = {}
-            Persistence.remove(Post, res)(query, mod)
-        },
-        initDatabase: (req, res) => {
-            Service.searchJson()
-                .then(response => {
-                    Business.createPostRequest(response.data)
-                    res.status(200).json(response.data)
-                })
-                .catch(err => res.status(400).json(err))
+            Persistence.remove(Post, res)(query)
         }
     }
 }

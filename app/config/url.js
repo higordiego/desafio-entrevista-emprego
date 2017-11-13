@@ -1,7 +1,7 @@
 module.exports = {
     mongodb: {
         online: '',
-        offline: 'mongodb://desafio_bd/desafio'
+        offline: 'mongodb://localhost/desafio'
     },
     apiExternal: {
         urlOne: 'https://jsonplaceholder.typicode.com/posts'

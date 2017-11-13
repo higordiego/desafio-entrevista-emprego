@@ -17,12 +17,12 @@ const findOne = (Model, res) => (query, mod) =>
 
 const findAll = (Model, res) => (query, mod) =>
     Model.find(query, mod)
-        .then(returnObject.findSuccess(res))
+        .then(returnObject.findAllSuccess(res))
         .catch(returnObject.error(res))
 
-const remove = (Model, res) => (query, mod) =>
-    Model.remove(query, mod)
-        .then(returnObject.returnError(res))
+const remove = (Model, res) => (query) =>
+    Model.remove(query)
+        .then(returnObject.deleteSucess(res))
         .catch(returnObject.error(res))
 
 module.exports = {

@@ -7,12 +7,12 @@ module.exports = ({
         title: 'Corpo',
         message: 'Corpo é requerido!'
     },
-    initDatabase: {
-        title: 'Error',
-        message: 'Erro na inicialização do robô'
+    id: {
+        title: 'Id',
+        message: 'Id é requerido!'
     },
-    initDatabaseSuccess: {
-        title: 'Busca Concluida',
-        message: 'Banco de dados já inicializado!'
+    _idInvalid: {
+        title: '_id',
+        message: '_id invalido!'
     }
 })

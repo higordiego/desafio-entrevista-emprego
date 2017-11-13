@@ -31,3 +31,25 @@ Modelo de dados para MongoDB https://www.npmjs.com/package/mongoose
 
 Framework web https://www.npmjs.com/package/express‌
 
+
+# Resolução...
+
+1 - Criar projeto utilizando NPM;
+  `npm init -y (resolvido)`
+
+2 - Armazenar dados de api existente:
+  * 2.1 - Realizar requisição a API de postagens em JSON seguinte: https://jsonplaceholder.typicode.com/posts
+        Resolvido - `npm run init-database`
+  * 2.2 - Armazenar postagens em MongoDB, utilizando módulo Mongoose (atributo "userId" pode ser ignorado)
+        Resolvido - `npm run init-database`
+
+
+4 - CRUD postagens utilizando Express: - ** Resolvido **
+  * 4.1 - Fornecer listagem das postagens na url: http://127.0.0.1:8000/posts via método GET;
+  * 4.2 - Cadastrar novas postagens via url: http://127.0.0.1:8000/posts via método POST;
+  * 4.3 - Visualizar uma postagem via url: http://127.0.0.1:8000/posts/<id-da-postagem> via método GET;
+  * 4.4 - Atualizar uma postagem via url: http://127.0.0.1:8000/posts/<id-da-postagem> via método PUT;
+
+
+
+
