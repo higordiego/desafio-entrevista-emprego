@@ -8,7 +8,8 @@
     "start": "DEBUG=express:* node app.js",
     "lint": "eslint '**/*.js' ",
     "lint:fix": "eslint '**/*.js' --fix",
-    "init-database": "node init-database.js"
+    "init-database": "node init-database.js",
+    "crawler": "node crawler.js"
   },
   "devDependencies": {
     "eslint": "^4.3.0",
@@ -32,6 +33,7 @@
   "dependencies": {
     "axios": "^0.17.0",
     "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "express-validator": "^4.3.0",

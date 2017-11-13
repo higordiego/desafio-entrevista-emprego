@@ -43,6 +43,11 @@ Framework web https://www.npmjs.com/package/express‌
   * 2.2 - Armazenar postagens em MongoDB, utilizando módulo Mongoose (atributo "userId" pode ser ignorado)
         Resolvido - `npm run init-database`
 
+3 - Capturar dados:
+  * 3.1 - Realizar requisição a página http://www.ifpe.edu.br/noticias;
+        Resolvido - `npm run crawler`
+  * 3.2 - Capturar notícias da página utilizando Cheerio convertendo para formato de postagens e armazenar como no item 2.2.
+        Resolvido - `npm run crawler`
 
 4 - CRUD postagens utilizando Express: - ** Resolvido **
   * 4.1 - Fornecer listagem das postagens na url: http://127.0.0.1:8000/posts via método GET;
